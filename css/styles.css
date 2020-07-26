@@ -1,0 +1,95 @@
+
+
+
+/*navigation section*/
+.navbar-brand {
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.navbar{
+	padding-bottom: 4em;
+
+}
+
+/*main-content section*/
+
+#title {
+	background-color: red;
+	color: #fff;
+}
+
+#title h1 {
+	font-family: 'Montserrat-black';
+	font-size: 3.5rem;
+	line-height: 1.5;
+	font-weight: 900;
+}
+
+.container-fluid {
+	padding: 3% 15%;
+}
+
+.title-image {
+	width: 50%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 20%;
+}
+
+/*features section*/
+
+#features {
+	text-align: center;
+	padding:  7% 15%;
+	position: relative;
+	background-color: white;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+#features .icon-color {
+	color: red;
+}
+
+
+
+/*price section*/
+
+.pricing-column {
+	padding: 10% 6%;
+}
+
+
+
+/*call to action section */
+#cta {
+	background-color: red;
+	text-align: center;
+	padding: 7% 15%;
+}
+
+#cta h3 {
+	color: white;
+}
+
+
+/*footer section */
+
+#footer {
+	text-align: center;
+	padding: 7% 5%;
+}
+
+
+
+@media (max-width: 1028px) {
+	.title-image {
+		position: static;
+	transform: rotate(0);
+	width: 80%;
+
+}
+}
